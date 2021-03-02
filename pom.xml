@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>spring-cloud-microservice</groupId>
-<!--    <artifactId>limits-service</artifactId>-->
+    <artifactId>spring-cloud-microservice</artifactId>
     <version>1.0</version>
     <packaging>pom</packaging>
 
