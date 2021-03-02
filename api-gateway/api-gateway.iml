@@ -35,14 +35,10 @@
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter-config:3.0.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter:3.0.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-context:3.0.1" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-crypto:5.4.5" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-commons:3.0.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.security:spring-security-rsa:1.0.9.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.bouncycastle:bcpkix-jdk15on:1.64" level="project" />
     <orderEntry type="library" name="Maven: org.bouncycastle:bcprov-jdk15on:1.64" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-config-client:3.0.2" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-web:5.3.4" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.3.4" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.11.4" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.5.13" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.4.14" level="project" />
@@ -115,11 +111,52 @@
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-cache:2.4.3" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context-support:5.3.4" level="project" />
     <orderEntry type="library" name="Maven: com.stoyanr:evictor:1.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter-sleuth:3.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-aop:2.4.3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.3.4" level="project" />
+    <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.9.6" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-sleuth-autoconfigure:3.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.aspectj:aspectjrt:1.9.6" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-sleuth-brave:3.0.1" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.brave:brave:5.13.2" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.brave:brave-context-slf4j:5.13.2" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.brave:brave-instrumentation-messaging:5.13.2" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.brave:brave-instrumentation-rpc:5.13.2" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.brave:brave-instrumentation-spring-rabbit:5.13.2" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.brave:brave-instrumentation-kafka-clients:5.13.2" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.brave:brave-instrumentation-kafka-streams:5.13.2" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.brave:brave-instrumentation-httpclient:5.13.2" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.brave:brave-instrumentation-http:5.13.2" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.brave:brave-instrumentation-httpasyncclient:5.13.2" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.brave:brave-instrumentation-jms:5.13.2" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.brave:brave-instrumentation-mongodb:5.13.2" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.aws:brave-propagation-aws:0.21.3" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.reporter2:zipkin-reporter-metrics-micrometer:2.16.1" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-sleuth-zipkin:3.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-sleuth-instrumentation:3.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-sleuth-api:3.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-web:5.3.4" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.3.4" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-commons:3.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-crypto:5.4.5" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.zipkin2:zipkin:2.23.0" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.reporter2:zipkin-reporter:2.16.1" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.reporter2:zipkin-reporter-brave:2.16.1" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.reporter2:zipkin-sender-kafka:2.16.1" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.reporter2:zipkin-sender-activemq-client:2.16.1" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.reporter2:zipkin-sender-amqp-client:2.16.1" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.amqp:spring-rabbit:2.3.5" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.amqp:spring-amqp:2.3.5" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.retry:spring-retry:1.3.1" level="project" />
+    <orderEntry type="library" name="Maven: javax.annotation:javax.annotation-api:1.3.2" level="project" />
+    <orderEntry type="library" name="Maven: com.rabbitmq:amqp-client:5.10.0" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.30" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-context:5.3.4" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.3.4" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-messaging:5.3.4" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-tx:5.3.4" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.springframework.boot:spring-boot-devtools:2.4.3" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:2.4.3" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-context:5.3.4" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.3.4" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.3.4" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.4.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-starter-test:2.4.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test:2.4.3" level="project" />
@@ -128,7 +165,6 @@
     <orderEntry type="library" scope="TEST" name="Maven: net.minidev:json-smart:2.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: net.minidev:accessors-smart:1.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.ow2.asm:asm:5.0.4" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.30" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:2.3.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: jakarta.activation:jakarta.activation-api:1.2.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.assertj:assertj-core:3.18.1" level="project" />
