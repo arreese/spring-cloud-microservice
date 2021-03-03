@@ -9,6 +9,7 @@
 
     <modules>
         <module>currency-conversion-service</module>
+        <module>limits-service</module>
         <module>currency-exchange-service</module>
         <module>api-gateway</module>
         <module>naming-server</module>
